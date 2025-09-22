@@ -20,7 +20,7 @@ const Login = () => {
   };
 
   return (
-    <View style={{ backgroundColor: 'red' }}>
+    <View>
       <View>
         <Text style={styles.loginText}>Login</Text>
       </View>
