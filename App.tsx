@@ -1,10 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import FlatLIST from './src/FlatLIST'
+import Login from './src/Login'
 
 const App = () => {
   return (
     <View>
-      <Text>App</Text>
+      {/* <FlatLIST/> */}
+      <Login/>
     </View>
   )
 }
