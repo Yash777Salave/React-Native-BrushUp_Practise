@@ -4,6 +4,7 @@ import FlatLIST from './src/FlatLIST'
 import Login from './src/Login'
 import Counter from './src/Screens/counter/Counter'
 import Get_API from './src/componants/Get_API'
+import Post_API from './src/componants/Post_API'
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       {/* <FlatLIST/> */}
       {/* <Login/> */}
       {/* <Counter/> */}
-      <Get_API/>
+      {/* <Get_API/> */}
+      <Post_API/>
     </View>
   )
 }
