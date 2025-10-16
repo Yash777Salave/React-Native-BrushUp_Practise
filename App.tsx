@@ -5,6 +5,7 @@ import Login from './src/Login'
 import Counter from './src/Screens/counter/Counter'
 import Get_API from './src/componants/Get_API'
 import Post_API from './src/componants/Post_API'
+import Put_API from './src/componants/Put_API'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Login/> */}
       {/* <Counter/> */}
       {/* <Get_API/> */}
-      <Post_API/>
+      {/* <Post_API/> */}
+      <Put_API/>
     </View>
   )
 }
