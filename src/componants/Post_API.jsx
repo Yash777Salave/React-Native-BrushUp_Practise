@@ -26,7 +26,7 @@ const Post_API = () => {
   };
   return (
     <View style={styles.mainConatiner}>
-      <Text style={styles.heading}>Post_API</Text>
+      <Text style={styles.heading}>Post API</Text>
       <View style={{ marginTop: 30 }}>
         <TextInput
           placeholder="Enter Id"

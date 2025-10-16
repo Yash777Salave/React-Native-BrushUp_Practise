@@ -18,7 +18,7 @@ const Get_API = () => {
   }, []);
   return (
     <View>
-      <Text style={styles.heading}>GET_API</Text>
+      <Text style={styles.heading}>GET API</Text>
       <Text>
         {users.map(item => (
           <View key={item.id}>
